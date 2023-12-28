@@ -50,5 +50,4 @@ def PilihMenu():
             daftarPilihan.append(namaBarang)
         elif pilihan == '2':
             dictionary = {f"data{x+1}": value for x, value in enumerate(daftarPilihan)}
-            print(dictionary)
             return dictionary

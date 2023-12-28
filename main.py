@@ -3,11 +3,18 @@ sys.path.insert(1, './src')
 
 from identitas import MasukkanIdentitas
 from pemilihan import PilihMenu
+from kuantitas import HitungKuantitas
+from kuantitas import Chekout
 
 def main():
-    identitasPembeli = MasukkanIdentitas()
+    # identitasPembeli = MasukkanIdentitas()
     daftarPilihan = PilihMenu()
-    print('identitas pembeli:', identitasPembeli)
-    print('daftar pilihan barang:', daftarPilihan)
+    kuantitas = HitungKuantitas(daftarPilihan)
+    checkout = Chekout(kuantitas)
+    
+    # print('identitas pembeli:', identitasPembeli)
+    # print('daftar pilihan barang:', daftarPilihan)
+    
+    # print(kuantitas)
 
 main()
