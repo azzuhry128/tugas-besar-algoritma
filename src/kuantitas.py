@@ -20,8 +20,8 @@ def Total(daftar):
     total = []
     for x in daftar: 
         total.append(x['subtotal'])
-    Sum = sum(total)
-    print("total: ",Sum)
+    Summed = sum(total)
+    return Summed
     
             
     

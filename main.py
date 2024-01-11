@@ -7,15 +7,17 @@ from kuantitas import HitungKuantitas
 from kuantitas import SubTotal
 from kuantitas import MetodePembayaran
 from kuantitas import Total
+from struk import CetakStruk
 
 def main():
-    # identitasPembeli = MasukkanIdentitas()
+    identitasPembeli = MasukkanIdentitas()
     daftarPilihan = PilihMenu()
     kuantitas = HitungKuantitas(daftarPilihan)
     subtotal = SubTotal(kuantitas)
     total = Total(subtotal)
     metode = MetodePembayaran()
-    print(total)
+    CetakStruk(identitasPembeli, subtotal, total, metode)
+    
     
     # checkout = Chekout(kuantitas)
     
