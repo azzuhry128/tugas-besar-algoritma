@@ -29,20 +29,3 @@ def CetakStruk(identitas, dataPembelian, total, metode):
     print('total pembayaran: ', total)
     print('metode pembayaran: ', metode)
     
-    # print
-    
-    
-    # print("\nresi pembelian")
-    # print("NO. Resi: ", resi)
-    # print("nama pembeli: ", identitas[0])
-    # print("telepon: ", identitas[1])
-
-    # print(tabulate(order, headers=header, tablefmt='grid'))
-
-    # for items in barang:
-    #     print(f'''
-    #     nama barang: {items["nama"]}
-    #     harga barang: {items["harga"]}
-    #     kuantitas: {items["kuantitas"]}
-    #     subtotal: {items["subtotal"]}
-    #     ''')

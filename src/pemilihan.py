@@ -32,5 +32,4 @@ def PilihMenu():
             dictionary['harga_satuan'] = hargaBarang[0]
             daftarPilihan.append(dictionary)
         elif pilihan == '2':
-            # dictionary = {f"data{x+1}": value for x, value in daftarPilihan}
             return daftarPilihan

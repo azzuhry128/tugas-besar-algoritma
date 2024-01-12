@@ -18,12 +18,5 @@ def main():
     metode = MetodePembayaran()
     CetakStruk(identitasPembeli, subtotal, total, metode)
     
-    
-    # checkout = Chekout(kuantitas)
-    
-    # print('identitas pembeli:', identitasPembeli)
-    # print('daftar pilihan barang:', daftarPilihan)
-    
-    # print(kuantitas)
 
 main()
